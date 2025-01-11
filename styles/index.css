@@ -159,13 +159,27 @@ text-align: left;
     /* Vision Part End */
 
     /* Vision Card Part Start */
-#vision .card {
+#vision .card-1,.card-2,.card-3 {
     width: 490px;
     height: 325px;
     box-sizing: border-box;
     border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
     padding: 32px;
+}
+#vision .card-1 {
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+}
+#vision .card-2 {
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+}
+#vision .card-3 {
+    box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
 }
 
 #vision .vision-sub-titel {
@@ -189,14 +203,34 @@ letter-spacing: 0%;
 text-align: left;
 margin-top: 24px;
 }
-#vision .vision-btn {
+/* experiment only start */
+/* #vision .vision-btn,.card-1 .vision-btn,.card-2 .vision-btn,.card-3 {
 border-radius: 8px;
-background: rgb(84, 144, 245);
 padding: 11px 20px 11px 20px;
 border: none;
 margin-top: 24px;
 cursor: pointer;
+} */
+/* experiment only end */
+        /* When you have a Problem, you have not just a problem. you have always ALLAH ..Tell allah.Because allah only can solve your all problem's */
+#vision .vision-btn {
+    border-radius: 8px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    margin-top: 24px;
+    cursor: pointer;
+    }
+
+#vision .card-1 .vision-btn {
+background: rgb(84, 144, 245);
 }
+#vision .card-2 .vision-btn {
+background: rgb(9, 161, 92);
+}
+#vision .card-3 .vision-btn {
+background: rgb(255, 194, 57);
+}
+
 #vision .vision-btn a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -212,4 +246,6 @@ text-align: left;
     justify-content: space-between;
 }
     /* Vision Card Part End */
+
+
         /* Main part End */
