@@ -294,8 +294,75 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 background: rgb(198, 228, 214); 
 display: flex;
 justify-content: space-between;
+padding: 24px;
 }
-
+.main-bg .nura {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+padding: 24px;
+}
+.main-bg .question-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px;
+    margin: 24px;
+}
+.descript {
+    display: flex;
+    justify-content: space-between;
+}
+.descript .question-btn .agree {
+text-decoration: none;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.main-bg {
+    margin-bottom: 80px;
+}
         /* Qusetion form End */
+
+        /* Recent News part Start */
+#news {
+    width: 1600px;
+    margin: 0 auto;
+}
+#news .resent-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+#news .resent-para {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 32px;
+}
+        /* Recent News part End */
+        /* Recent News card part Start */
+
+
+        
+        /* Recent News card part End */
 
         /* Main part End */
