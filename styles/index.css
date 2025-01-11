@@ -165,6 +165,7 @@ text-align: left;
     box-sizing: border-box;
     border-radius: 16px;
     padding: 32px;
+    margin-bottom: 32px;
 }
 #vision .card-1 {
     box-sizing: border-box;
@@ -246,6 +247,55 @@ text-align: left;
     justify-content: space-between;
 }
     /* Vision Card Part End */
+        /* Qusetion form Start */
+#opinion-form {
+    width: 1600px;
+    margin: 0 auto;
+}
 
+#opinion-form .titel {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#opinion-form .main-bg {
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+#opinion .Questions {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+#opinion .your-opinion {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.Question .Question-nav {
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214); 
+display: flex;
+justify-content: space-between;
+}
+
+        /* Qusetion form End */
 
         /* Main part End */
