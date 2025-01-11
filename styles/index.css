@@ -360,9 +360,74 @@ margin-bottom: 32px;
 }
         /* Recent News part End */
         /* Recent News card part Start */
+.news-card {
+    background-color: white;
+    border-radius: 24px;
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    height: 400px;
+    padding: 48px 60px 48px 48px;
+    margin-bottom: 24px;
 
+}
+.news-card .news-img {
+width: 408px;
+height: 306px;
+order: 0;
+flex-grow: 0;
+margin: 48px;
+border-radius: 50px;/* Why border-radius have n't work? */
+}
+.news-card .news-img {
+    border-radius: 24px;
+}
+.news-card .sub-news {
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+margin-top: 56px;
+}
+.news-card .jazeera-img {
+    margin: 12px 0;
+} 
+.news-card .time {
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;    
+}
+.news-card .perar-shesh-koi {
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;    
+}
+.news-contant .btn {
+border-radius: 8px;
+background: rgb(0, 106, 80); 
+padding: 13px 26px 13px 26px;
+border: none;   
+}
+.news-contant .btn .muri-kha {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}
 
-        
         /* Recent News card part End */
 
         /* Main part End */
