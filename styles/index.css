@@ -4,13 +4,16 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-style: normal;
+  background-color: #f5f5f5; 
+  
+  /* If you add backgroung-color in Universel selector then, it do't work properly.*/
 }
 /* google fonts end */
 
 * {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
 }
 
         /* Header Part Start */
@@ -51,5 +54,73 @@ border-radius: 8px;
 
 }
 /* Navigation part Style end */
+
+        /* Hero section start */
+#hero {
+    width: 1400px;
+    height: 560px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    /* display: flex; */
+    padding: 80px 100px;
+    margin: 0 auto;
+    /* justify-content: space-around; */
+}
+#hero .hero-background {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero .hero-contant {
+    width: 622px;
+    height: 246px;
+}
+#hero .sub-titel {
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+#hero .titel {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+/* height: 201px; */
+}
+#hero .btn {
+padding: 17px 34px 17px 34px;
+ margin-top: 24px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+cursor: pointer;
+}
+#hero .btn a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+}
+#hero .hero-image {
+    width: 474px;
+    height: 400px;
+    margin-left: 60px;
+    /* margin-right: 200px; */
+}
+#hero .hero-image img {
+    width: 100%;
+}
+        /* Hero section End */
 
         /* Header Part End */
