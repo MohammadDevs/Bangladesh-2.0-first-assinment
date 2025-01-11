@@ -124,3 +124,92 @@ border: none;
         /* Hero section End */
 
         /* Header Part End */
+
+        /* Main part Start */
+    /* Vision Part Start */
+
+#vision {
+    width: 1600px;
+    margin: 0 auto;
+}    
+#vision .vision-contenar {
+width: 100%;
+align-items: start;
+margin-top: 152px;
+margin-bottom: 20px;
+}
+.vision-titel {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+#vision .vision-descript {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+    /* Vision Part End */
+
+    /* Vision Card Part Start */
+#vision .card {
+    width: 490px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+#vision .vision-sub-titel {
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+}
+
+#vision .vision-content {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 24px;
+}
+#vision .vision-btn {
+border-radius: 8px;
+background: rgb(84, 144, 245);
+padding: 11px 20px 11px 20px;
+border: none;
+margin-top: 24px;
+cursor: pointer;
+}
+#vision .vision-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+#vision .vision-card {
+    display: flex;
+    justify-content: space-between;
+}
+    /* Vision Card Part End */
+        /* Main part End */
