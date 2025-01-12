@@ -1,3 +1,5 @@
+                                /* Assalamualikum Dear Teacher's and Developer's,
+                    The Monitor on which this assignmentis done consists of 1920 pixels wide  */
 /* google fonts start */
 .work-sans-normal {
   font-family: "Work Sans", serif;
@@ -363,7 +365,7 @@ margin-bottom: 32px;
 .news-card {
     background-color: white;
     border-radius: 24px;
-    width: 1600px;
+    width: 1500px;
     margin: 0 auto;
     display: flex;
     height: 400px;
@@ -415,7 +417,8 @@ text-align: left;
 border-radius: 8px;
 background: rgb(0, 106, 80); 
 padding: 13px 26px 13px 26px;
-border: none;   
+border: none;
+margin-top: 32px;   
 }
 .news-contant .btn .muri-kha {
 text-decoration: none;
@@ -429,5 +432,78 @@ text-align: left;
 }
 
         /* Recent News card part End */
+
+        /* Donate Part Start */
+#donate .donate-today {
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+#donate .descript-container {
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+#donate .descript-container .descript {
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 24px;
+padding: 6px;
+}
+#donate .taka, .taka-2 {
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px;
+width: 300px;
+text-align: center;
+}
+#donate .taka .amount, .amount-2 {
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+/* line-height: 48px;*/   /* I comment it. because, I don't know how it work*/
+letter-spacing: 0%;
+text-align: center;
+}
+#donate .taka-2 {
+    background-color: rgb(198, 228, 214);
+}
+#donate .taka-container {
+    width: 1600px;
+    margin: 0 auto;
+}
+#donate .taka-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+#donate .manual {
+width: 1400px;
+margin: 0 auto;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px 40px 20px 40px;
+text-align: center;
+font-size: 20px;
+}
+
+        /* Donate Part End */
 
         /* Main part End */
