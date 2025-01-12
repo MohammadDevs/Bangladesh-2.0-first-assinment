@@ -503,7 +503,148 @@ padding: 20px 40px 20px 40px;
 text-align: center;
 font-size: 20px;
 }
+#donate .sub-manual {
+    border: none;
+    width: 1200px;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+#donate .btn {
+width: 150px;
+box-sizing: border-box;
+border: none;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+padding: 17px 30px 17px 30px;
+
+}
+#donate .btn .poket-nai {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+/* line-height: 22px; */
+/* letter-spacing: 0%; */
+/* text-align: left; */
+
+}
+#donate .pera-shesh {
+    width: 100px;
+    margin: 32px auto;
+}
 
         /* Donate Part End */
 
+        /* Subscribe Part Start */
+.ishue {
+width: 1400px;
+height: 395px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+margin: 0 auto;
+
+}
+#subscribe .titel {
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 80px;
+}
+#subscribe .murir-bornona {
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+/* letter-spacing: 0%; */
+text-align: center;
+margin-top: 16px;
+margin-bottom: 32px;
+}
+#subscribe .titel {
+padding-top: 80px;
+}
+#subscribe .email-contaner {
+/* padding: 18px 40px 18px 40px; */
+display: flex;
+justify-content: center;
+/* justify-content: space-evenly; */
+
+}
+#subscribe .email-selector {
+width: 600px;
+height: 55px;
+text-align: center;
+font-size: 18px;
+border-radius: 8px 0px 0px 8px;
+}   
+
+#subscribe .muri-anish {
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+}
+#subscribe .btn {
+padding: 17px 34px 17px 34px;
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);    
+}
+#subscribe .muri-nai {
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 25px;
+}
+
+
+        /* Subscribe Part End */
+
         /* Main part End */
+
+        /* Footer part Start */
+#foter {
+width: 1562px;
+height: 160px;
+background: rgb(255, 255, 255);
+margin-top: 80px;
+padding: 50px 160px;
+}
+#foter .ar-koto {
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+#foter .khela-shesh {
+    text-align: center;
+    margin-top: 75px;
+}
+#foter .rumi {
+    margin-right: 23px;
+}
+        /* Footer part End */
